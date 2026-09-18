@@ -1,0 +1,1 @@
+registry.access.redhat.com/ubi7/python-38@sha256:6d8cf22d54a80f6e1c9ef394ed155fe9fe12864aa3b5f25547c149bd87ff8a89

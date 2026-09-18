@@ -1,7 +1,34 @@
-site_name: My Docs
-
-
-color_mode: auto
-
-theme: readthedocs
-
+site_name: Fieldnotes
+site_description: Clear documentation. Anywhere.
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+theme:
+  name: null
+  custom_dir: theme
+  static_templates:
+    - 404.html
+plugins: []
+hooks:
+  - hooks/offline_search.py
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+nav:
+  - Overview: index.md
+  - Writing guide:
+      - Getting started: guide/getting-started.md
+      - Code & syntax: guide/code.md
+      - Mathematics: guide/math.md
+  - Use this theme offline: offline.md
+  - Theme setup: theme-setup.md
+  - Container testing: container-test.md
