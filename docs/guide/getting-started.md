@@ -42,7 +42,7 @@ The preview runs on your own machine. The build produces a portable `site/` fold
 
 ## Make it yours
 
-Change `site_name` and `site_description` in `mkdocs.yml`. Edit the color variables at the top of `theme/assets/theme.css` to adjust the palette. The brand mark uses the first letter of your site name.
+Change `site_name` and `site_description` in `mkdocs.yml`. Edit the color variables at the top of `theme/assets/theme.css` to adjust the palette.
 
 !!! note "Keep the project portable"
     Use relative Markdown links and local images. To add an image, place it under `docs/images/` and reference it from your page.
